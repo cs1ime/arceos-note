@@ -5,3 +5,13 @@ set(CMAKE_OBJDUMP           ${PREFIX}objdump)
 set(CMAKE_RANLIB            ${PREFIX}ranlib)
 ```
 
+
+
+编译：
+
+```
+cd kernel
+make env    # for first time
+make run ARCH=x86_64 LOG=warn
+```
+
