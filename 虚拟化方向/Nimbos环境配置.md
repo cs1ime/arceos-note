@@ -15,3 +15,13 @@ make env    # for first time
 make run ARCH=x86_64 LOG=warn
 ```
 
+
+
+
+
+arceos编译:
+
+```
+make ARCH=x86_64 A=apps/hv HV=y LOG=info GUEST=nimbos run
+```
+
